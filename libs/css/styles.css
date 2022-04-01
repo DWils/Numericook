@@ -1,9 +1,10 @@
 header {
     text-align: center;
     background-color: #fff;
-    margin:  -10px -20px 10px -20px;
+    margin:  -10px -20px 20px -20px;
     background-color: rgb(156, 221, 252);
     border-radius: 0 0 50px 50px;
+    height: 100px; 
   }
   
   nav {
@@ -17,10 +18,10 @@ body {
 }
 #logo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
+    font-size: 35px;
     color: rgb(0, 0, 0);
     text-shadow: 5px 5px 10px rgb(20, 108, 240);
-    text-align: center;
+    text-align: justify;
 }
 img
 {
@@ -47,4 +48,25 @@ img
     padding-left: 10px;
     padding-right: 10px
 
+}
+#c{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+footer{
+    background-color: #fff;
+    margin:  10px -20px -20px -20px;
+    background-color: rgb(156, 221, 252);
+    border-radius: 50px 50px 0 0;
+    text-align:center;
+    height: 100px;
+  }
+#footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 10px rgb(20, 108, 240);
+    text-align:center;
 }
