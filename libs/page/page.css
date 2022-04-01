@@ -1,0 +1,48 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    background-image: url("./index.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+header {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+section{
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer{
+    margin-top: 20px;
+    color: olive;
+}
+
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: green;
+}
+
+p{
+    color: gold;
+}
+
+a : :visited{
+    color: 	#FF6347;
+}
