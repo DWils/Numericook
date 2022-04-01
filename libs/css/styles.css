@@ -2,9 +2,9 @@ header {
     text-align: center;
     background-color: #fff;
     margin:  -10px -20px 20px -20px;
-    background-color: rgb(156, 221, 252);
+    background-color: rgba(156, 252, 191, 0.436);
     border-radius: 0 0 50px 50px;
-    height: 100px; 
+    height: 15%; 
   }
   
   nav {
@@ -13,7 +13,10 @@ header {
       justify-content: space-evenly;
   }
 body {
-    background-color: rgba(178, 179, 248, 0.566);
+    background-image: url("../images/font.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0, 4;
 
 }
 #logo{
@@ -55,14 +58,17 @@ img
     border-radius: 10px 10px 10px 10px;
 }
 
-footer{
-    background-color: #fff;
-    margin:  10px -20px -20px -20px;
-    background-color: rgb(156, 221, 252);
-    border-radius: 50px 50px 0 0;
-    text-align:center;
-    height: 100px;
-  }
+/* footer{
+    position: absolute;
+    bottom: 0;
+    padding-top: 50px;
+    width: 100%;
+    /* margin:  10px -20px -20px -20px; */
+    /* background-color: rgb(156, 221, 252); */
+    /* border-radius: 50px 50px 0 0; */
+    /* text-align:center;
+    height: 15%;
+  } */ 
 #footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
