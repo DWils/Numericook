@@ -1,5 +1,5 @@
 create table metiers(
-  id int,
+  id_metier int primary key not null,
   images_metiers varchar(255),
   nom varchar(255),
   description TEXT,
@@ -93,13 +93,13 @@ VALUES
     null,
     'bac +5',
     4
-  );insert into metiers(id_domaine) VALUES (1),(2),(1),(4),(3),(2),(4),(4),(2);
-  update metiers set id_domaine = 1 where id = 1;
-  update metiers set id_domaine = 2 where id = 2;
-  update metiers set id_domaine = 1 where id = 3;
-  update metiers set id_domaine = 4 where id = 4;
-  update metiers set id_domaine = 3 where id = 5;
-  update metiers set id_domaine = 2 where id = 6;
-  update metiers set id_domaine = 4 where id = 7;
-  update metiers set id_domaine = 4 where id = 8;
-  update metiers set id_domaine = 2 where id = 9;
+  );
+  update metiers set id_domaine = 1 where id_metier = 1;
+  update metiers set id_domaine = 2 where id_metier = 2;
+  update metiers set id_domaine = 1 where id_metier = 3;
+  update metiers set id_domaine = 4 where id_metier = 4;
+  update metiers set id_domaine = 3 where id_metier = 5;
+  update metiers set id_domaine = 2 where id_metier = 6;
+  update metiers set id_domaine = 4 where id_metier = 7;
+  update metiers set id_domaine = 4 where id_metier = 8;
+  update metiers set id_domaine = 2 where id_metier = 9;
