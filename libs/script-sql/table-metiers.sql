@@ -103,3 +103,12 @@ VALUES
   update metiers set id_domaine = 4 where id_metier = 7;
   update metiers set id_domaine = 4 where id_metier = 8;
   update metiers set id_domaine = 2 where id_metier = 9;
+UPDATE metiers set images_metiers = 'webdev.jpg' where id_metier = 1;
+UPDATE metiers set images_metiers = 'productowner.jpg' where id_metier = 2;
+UPDATE metiers set images_metiers = 'concepteur.jpg' where id_metier = 3;
+UPDATE metiers set images_metiers = 'datascientist.jpg' where id_metier = 4;
+UPDATE metiers set images_metiers = 'webdesigner.jpg' where id_metier = 6;
+UPDATE metiers set images_metiers = 'dataengineer.jpg' where id_metier = 7;
+UPDATE metiers set images_metiers = 'dataanalyst.jpg' where id_metier = 8;
+UPDATE metiers set images_metiers = 'digital.jpg' where id_metier = 9;
+UPDATE metiers set images_metiers = 'devmobile.jpg' where id_metier = 5;
